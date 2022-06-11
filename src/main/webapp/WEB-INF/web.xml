@@ -9,4 +9,44 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Traitement</display-name>
+    <servlet-name>Traitement</servlet-name>
+    <servlet-class>model.controller.Traitement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Traitement</servlet-name>
+    <url-pattern>/Traitement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Modification</display-name>
+    <servlet-name>Modification</servlet-name>
+    <servlet-class>model.controller.Modification</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Modification</servlet-name>
+    <url-pattern>/Modification</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Suppresion</display-name>
+    <servlet-name>Suppresion</servlet-name>
+    <servlet-class>model.controller.Suppresion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Suppresion</servlet-name>
+    <url-pattern>/Suppresion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Delete</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>model.controller.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -37,5 +37,8 @@
 		</table>
 	</form>
 
+<a href="ListeEnseignant.jsp">cliquer ici pour ajouter des enseignants </a> <br>
+<a href= "Modification"> afficher les employés </a> <br>
+<a href= "Delete"> afficher les employés </a> <br>
 </body>
 </html>
